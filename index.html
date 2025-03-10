@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- Enable responsive scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Feng Shui 2 Combat Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <header>
+      <h1>Feng Shui 2 Combat Tracker</h1>
+      <button id="addEnemyBtn">Add Enemy</button>
+    </header>
+
+    <main>
+      <div id="enemiesContainer">
+        <!-- Enemy cards will be inserted here -->
+      </div>
+    </main>
+
+    <footer>
+      <button id="saveBtn">SAVE</button>
+      <button id="importBtn">IMPORT</button>
+      <!-- Hidden file input for importing JSON -->
+      <input type="file" id="importFile" accept=".json" style="display:none" />
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
